@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+GET http://api.bodymedia.com/v2/step/day/hour/20110615/20110617?api_key=xy3kd... 
+Returns the total and average step information for June 15, 2011 through June 17, 2011, 
+the daily step total as well as hourly step information for each day in the range.
+-->
+<step averageSteps="12296" totalSteps="36889" endDate="20110617" startDate="20110615">
+  <lastSync dateTime="20120621T181047-1000" type="UPLOAD_SYNC_WIN"/>
+  <days>
+    <stepDay date="20110615" totalSteps="12652">
+      <hours>
+        <hour totalSteps="29"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="39"/>
+        <hour totalSteps="83"/>
+        <hour totalSteps="329"/>
+        <hour totalSteps="2138"/>
+        <hour totalSteps="551"/>
+        <hour totalSteps="37"/>
+        <hour totalSteps="115"/>
+        <hour totalSteps="2697"/>
+        <hour totalSteps="2718"/>
+        <hour totalSteps="58"/>
+        <hour totalSteps="159"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="2085"/>
+        <hour totalSteps="674"/>
+        <hour totalSteps="473"/>
+        <hour totalSteps="175"/>
+        <hour totalSteps="232"/>
+        <hour totalSteps="54"/>
+        <hour totalSteps="6"/>
+      </hours>
+    </stepDay>
+    <stepDay date="20110616" totalSteps="9891">
+      <hours>
+        <hour totalSteps="46"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="84"/>
+        <hour totalSteps="549"/>
+        <hour totalSteps="2234"/>
+        <hour totalSteps="435"/>
+        <hour totalSteps="104"/>
+        <hour totalSteps="712"/>
+        <hour totalSteps="1542"/>
+        <hour totalSteps="5"/>
+        <hour totalSteps="212"/>
+        <hour totalSteps="23"/>
+        <hour totalSteps="120"/>
+        <hour totalSteps="1342"/>
+        <hour totalSteps="1610"/>
+        <hour totalSteps="405"/>
+        <hour totalSteps="305"/>
+        <hour totalSteps="120"/>
+        <hour totalSteps="43"/>
+        <hour totalSteps="0"/>
+      </hours>
+    </stepDay>
+    <stepDay date="20110617" totalSteps="14346">
+      <hours>
+        <hour totalSteps="0"/>
+        <hour totalSteps="10"/>
+        <hour totalSteps="13"/>
+        <hour totalSteps="3"/>
+        <hour totalSteps="0"/>
+        <hour totalSteps="62"/>
+        <hour totalSteps="4"/>
+        <hour totalSteps="749"/>
+        <hour totalSteps="2494"/>
+        <hour totalSteps="174"/>
+        <hour totalSteps="139"/>
+        <hour totalSteps="56"/>
+        <hour totalSteps="3403"/>
+        <hour totalSteps="2631"/>
+        <hour totalSteps="121"/>
+        <hour totalSteps="54"/>
+        <hour totalSteps="3"/>
+        <hour totalSteps="2359"/>
+        <hour totalSteps="975"/>
+        <hour totalSteps="421"/>
+        <hour totalSteps="237"/>
+        <hour totalSteps="366"/>
+        <hour totalSteps="68"/>
+        <hour totalSteps="4"/>
+      </hours>
+    </stepDay>
+  </days>
+</step>

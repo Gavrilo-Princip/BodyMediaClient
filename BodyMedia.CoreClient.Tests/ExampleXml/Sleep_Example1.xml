@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+GET http://api.bodymedia.com/v2/sleep/20110724?api_key=xy3kd... 
+Returns the sleep, lying down and sleep efficiency summary information for July 24, 2011. Remember that sleep data is from noon 
+the previous day (July 23, 2011) to noon the current day (July 24, 2011). 
+-->
+<sleep averageLying="491" averageSleep="413" efficiency="0.84" totalLying="491" totalSleep="413" endDate="20110724" startDate="20110724">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_MAC"/>
+</sleep>

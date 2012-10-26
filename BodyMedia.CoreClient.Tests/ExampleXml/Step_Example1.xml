@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+GET http://api.bodymedia.com/v2/step/20110615?api_key=xy3kd... 
+Returns the step total for June 15, 2011
+-->
+<step averageSteps="12652" totalSteps="12652" endDate="20110615" startDate="20110615">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_WIN"/>
+</step>

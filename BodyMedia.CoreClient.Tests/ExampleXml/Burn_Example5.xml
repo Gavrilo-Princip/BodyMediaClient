@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+GET http://api.bodymedia.com/v2/burn/day/minute/intensity/20110615?api_key=ayz22...
+Returns the total and average caloric burn information for June 15, 2011 the daily breakdown of the caloric burn information as well as minute caloric 
+burn and intensity information for each day in the range. (Minute information has been trimmed in the example for brevity, the service returns one min 
+element for each minute in the day.)
+
+Minute results are restricted to a maximum of one day per request. 
+-->
+<burn averageCalories="3501" totalCalories="3501" endDate="20110615" startDate="20110615">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_MAC"/>
+  <days>
+    <burnDay date="20110615" totalCalories="3501" estimatedCalories="0" predictedCalories="0">
+      <minutes>
+        <min iType="M" cals="8.065" mets="4.64" source="D"/>
+        <min iType="M" cals="7.718" mets="4.44" source="D"/>
+        <min iType="M" cals="7.682" mets="4.42" source="D"/>
+        <min iType="S" cals="4.193" mets="2.41" source="D"/>
+        <min iType="S" cals="4.7" mets="2.7" source="D"/>
+        <min iType="S" cals="4.967" mets="2.86" source="D"/>
+        <min iType="S" cals="4.672" mets="2.69" source="D"/>
+        <min iType="S" cals="4.635" mets="2.67" source="D"/>
+        <min iType="S" cals="4.417" mets="2.54" source="D"/>
+        <min iType="S" cals="1.611" mets="0.93" source="D"/>
+        <min iType="S" cals="1.569" mets="0.9" source="D"/>
+        <min iType="S" cals="2.024" mets="1.16" source="D"/>
+        <min iType="S" cals="1.566" mets="0.9" source="D"/>
+        <min iType="S" cals="1.561" mets="0.9" source="D"/>
+        <min iType="S" cals="1.551" mets="0.89" source="D"/>
+        <min iType="S" cals="1.554" mets="0.89" source="D"/>
+        <min iType="S" cals="1.623" mets="0.93" source="D"/>       
+      </minutes>
+    </burnDay>
+  </days>
+</burn>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+GET http://api.bodymedia.com/v2/activity/day/20110618?api_key=ayz22... 
+Returns the summary information for June 18, 2011 
+-->
+<activityLog endDate="20110618" startDate="20110618">
+  <days>
+    <activityDay date="20110618">
+      <activity calories="242" type="CALISTHENICS_VIGOROUS" endDate="20110618T132800-0400" startDate="20110618T130800-0400"/>
+      <activity calories="57" type="BIRD_WATCHING" endDate="20110618T134300-0400" startDate="20110618T132800-0400"/>
+      <activity calories="227" type="CHOPPING_WOOD_SPLITTING_LOGS" endDate="20110618T140800-0400" startDate="20110618T134300-0400"/>
+      <activity calories="133" type="CARRYING_INFANT" endDate="20110618T143300-0400" startDate="20110618T140800-0400"/>
+    </activityDay>
+  </days>
+</activityLog>

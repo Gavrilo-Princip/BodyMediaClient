@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+GET http://api.bodymedia.com/v2/sleep/day/period/20110724?api_key=xy3kd... 
+Returns the total and average caloric burn information for July 24, 2011 as well as the periods of sleep or 
+lying down. Remember that sleep data is from noon the previous day (July 23, 2011) to noon the current day 
+(July 24, 2011). 
+-->
+<sleep averageLying="491" averageSleep="413" efficiency="0.84" totalLying="491" totalSleep="413" endDate="20110724" startDate="20110724">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_MAC"/>
+  <days>
+    <sleepDay date="20110724" efficiency="0.84" totalLying="491" totalSleep="413">
+      <sleepPeriods>
+        <period duration="2" minuteIndex="48" state="LYING"/>
+        <period duration="57" minuteIndex="50" state="ASLEEP"/>
+        <period duration="2" minuteIndex="107" state="LYING"/>
+        <period duration="2" minuteIndex="109" state="ASLEEP"/>
+        <period duration="12" minuteIndex="111" state="LYING"/>
+        <period duration="7" minuteIndex="125" state="LYING"/>
+        <period duration="8" minuteIndex="750" state="LYING"/>
+        <period duration="21" minuteIndex="808" state="ASLEEP"/>
+        <period duration="2" minuteIndex="829" state="LYING"/>
+        <period duration="1" minuteIndex="831" state="ASLEEP"/>
+        <period duration="4" minuteIndex="832" state="LYING"/>
+        <period duration="6" minuteIndex="836" state="ASLEEP"/>
+        <period duration="15" minuteIndex="842" state="LYING"/>
+        <period duration="16" minuteIndex="857" state="ASLEEP"/>
+        <period duration="3" minuteIndex="873" state="LYING"/>
+        <period duration="220" minuteIndex="876" state="ASLEEP"/>
+        <period duration="5" minuteIndex="1096" state="LYING"/>
+        <period duration="30" minuteIndex="1101" state="ASLEEP"/>
+        <period duration="2" minuteIndex="1131" state="LYING"/>
+        <period duration="39" minuteIndex="1133" state="ASLEEP"/>
+        <period duration="6" minuteIndex="1172" state="LYING"/>
+        <period duration="20" minuteIndex="1178" state="ASLEEP"/>
+        <period duration="4" minuteIndex="1198" state="LYING"/>
+        <period duration="1" minuteIndex="1202" state="ASLEEP"/>
+        <period duration="12" minuteIndex="1203" state="LYING"/>
+      </sleepPeriods>
+    </sleepDay>
+  </days>
+</sleep>

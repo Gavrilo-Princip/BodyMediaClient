@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+GET http://api.bodymedia.com/v2/burn/intensity/20110615?api_key=ayz22... 
+Returns the caloric burn total and average as well as the intensity summary information for June 15, 2011.
+-->
+<burn averageCalories="3501" totalCalories="3501" endDate="20110615" startDate="20110615">
+  <lastSync dateTime="20120615T151047-1000" type="UPLOAD_SYNC_MAC"/>
+  <intensity averageMets="1.4">
+    <moderate averageCalories="273" averageMinutes="33" totalCalories="273" totalMinutes="33"/>
+    <sedentary averageCalories="2771" averageMinutes="1379" totalCalories="2771" totalMinutes="1379"/>
+    <vigorous averageCalories="457" averageMinutes="28" totalCalories="457" totalMinutes="28"/>
+  </intensity>
+</burn>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+GET http://api.bodymedia.com/v2/burn/20110615?api_key=ayz22... 
+Returns the caloric burn total and average for June 15, 2011.
+-->
+<burn averageCalories="3501" totalCalories="3501" endDate="20110615" startDate="20110615">
+  <lastSync dateTime="20120618T151047-1000" type="UPLOAD_SYNC_MAC"/>
+</burn>

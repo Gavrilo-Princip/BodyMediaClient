@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+GET http://api.bodymedia.com/v2/burn/day/intensity/20110615/20110617?api_key=ayz22...
+Returns the total and average caloric burn information June 15, 2011 through June 17, 2011 as well as a daily breakdown of the caloric burn 
+and intensity information for each day in the range.
+
+This also shows that on the 17th we have estimated that the user has burned 314 calories from the last Armband sync to the current time and is 
+predicted to burn an additional 612 calories from the current time to the end of the day. This assumes that today is June 17th and that the user 
+has synchronized the Armband at some point early today. 
+-->
+<burn averageCalories="3094" totalCalories="9283" endDate="20110617" startDate="20110615">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_MAC"/>
+  <days>
+    <burnDay date="20110615" totalCalories="3501" estimatedCalories="0" predictedCalories="0">
+      <intensity averageMets="1.4">
+        <moderate totalCalories="273" totalMinutes="33"/>
+        <sedentary totalCalories="2771" totalMinutes="1379"/>
+        <vigorous totalCalories="457" totalMinutes="28"/>
+      </intensity>
+    </burnDay>
+    <burnDay date="20110616" totalCalories="3008" estimatedCalories="0" predictedCalories="0">
+      <intensity averageMets="1.2">
+        <moderate totalCalories="99" totalMinutes="12"/>
+        <sedentary totalCalories="2909" totalMinutes="1428"/>
+        <vigorous totalCalories="0" totalMinutes="0"/>
+      </intensity>
+    </burnDay>
+    <burnDay date="20110617" totalCalories="2774" estimatedCalories="314" predictedCalories="612">
+      <intensity averageMets="1.11">
+        <moderate totalCalories="37" totalMinutes="5"/>
+        <sedentary totalCalories="2736" totalMinutes="1435"/>
+        <vigorous totalCalories="0" totalMinutes="0"/>
+      </intensity>
+    </burnDay>
+  </days>
+</burn>

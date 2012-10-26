@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+GET http://api.bodymedia.com/v2/step/day/20110615/20110617?api_key=xy3kd... 
+Returns the total and average step information for June 15, 2011 through June 17, 2011 
+as well as a daily breakdown of the step information for each day in the range.
+-->
+<step averageSteps="12296" totalSteps="36889" endDate="20110617" startDate="20110615">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_WIN"/>
+  <days>
+    <stepDay date="20110615" totalSteps="12652"/>
+    <stepDay date="20110616" totalSteps="9891"/>
+    <stepDay date="20110617" totalSteps="14346"/>
+  </days>
+</step>

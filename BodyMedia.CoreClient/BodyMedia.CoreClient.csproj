@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79E759ED-BE60-4B89-98A8-9046A3E2AD93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BodyMedia.CoreClient</RootNamespace>
+    <AssemblyName>BodyMedia.CoreClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseManager.cs" />
+    <Compile Include="BurnManager.cs" />
+    <Compile Include="StepManager.cs" />
+    <Compile Include="Entities\Activity.cs" />
+    <Compile Include="Entities\ActivityDay.cs" />
+    <Compile Include="Entities\ActivityLog.cs" />
+    <Compile Include="Entities\Burn.cs" />
+    <Compile Include="Entities\BurnDay.cs" />
+    <Compile Include="Entities\BurnIntensity.cs" />
+    <Compile Include="Entities\BurnIntensitySummary.cs" />
+    <Compile Include="Entities\StepHour.cs" />
+    <Compile Include="Entities\StepDay.cs" />
+    <Compile Include="Entities\Step.cs" />
+    <Compile Include="Entities\EnergyMinute.cs" />
+    <Compile Include="Entities\EnergySource.cs" />
+    <Compile Include="Entities\IXmlEntity.cs" />
+    <Compile Include="Entities\MetsActivityType.cs" />
+    <Compile Include="Entities\Sleep.cs" />
+    <Compile Include="Entities\SleepDay.cs" />
+    <Compile Include="Entities\SleepPeriod.cs" />
+    <Compile Include="Entities\SleepState.cs" />
+    <Compile Include="Entities\SyncInformation.cs" />
+    <Compile Include="IManager.cs" />
+    <Compile Include="IRequestManager.cs" />
+    <Compile Include="OAuth.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestManager.cs" />
+    <Compile Include="SleepManager.cs" />
+    <Compile Include="StringExtentions.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if exist "C:\Program Files (x86)\Zone Five Software\SportTracks 2.1" copy /y "$(TargetDir)BodyMedia*" "C:\Program Files (x86)\Zone Five Software\SportTracks 2.1\*"
+
+if exist "C:\Program Files\Zone Five Software\SportTracks 2.1" copy /y "$(TargetDir)BodyMedia*" "C:\Program Files\Zone Five Software\SportTracks 2.1\*"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

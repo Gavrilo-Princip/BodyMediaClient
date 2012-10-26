@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+GET http://api.bodymedia.com/v2/sleep/day/20110724/20110726?api_key=xy3kd... 
+Returns the total and average sleep and lying down information as well as the average sleep efficiency summary
+information for July 24, 2011 through July 26, 2011. Remember that sleep data is from noon the day prior to the
+start date (July 23, 2011) to noon on the end date (July 26, 2011). 
+-->
+<sleep averageLying="369" averageSleep="337" efficiency="0.91" totalLying="1108" totalSleep="1010" endDate="20110726" startDate="20110724">
+  <lastSync dateTime="20120621T151047-1000" type="UPLOAD_SYNC_MAC"/>
+  <days>
+    <sleepDay date="20110724" efficiency="0.84" totalLying="491" totalSleep="413"/>
+    <sleepDay date="20110725" efficiency="0.99" totalLying="342" totalSleep="338"/>
+    <sleepDay date="20110726" efficiency="0.94" totalLying="275" totalSleep="259"/>
+  </days>
+</sleep>

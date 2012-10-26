@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+GET http://api.bodymedia.com/v2/activity/day/20110618/20110621?api_key=ayz22... 
+Returns the summary total and averages for June 18, 2011 through June 21, 2011. 
+-->
+<activityLog endDate="20110621" startDate="20110618">
+  <days>
+    <activityDay date="20110618">
+      <activity calories="242" type="CALISTHENICS_VIGOROUS" endDate="20110618T132800-0400" startDate="20110618T130800-0400"/>
+      <activity calories="57" type="BIRD_WATCHING" endDate="20110618T134300-0400" startDate="20110618T132800-0400"/>
+      <activity calories="227" type="CHOPPING_WOOD_SPLITTING_LOGS" endDate="20110618T140800-0400" startDate="20110618T134300-0400"/>
+      <activity calories="133" type="CARRYING_INFANT" endDate="20110618T143300-0400" startDate="20110618T140800-0400"/>
+    </activityDay>
+    <activityDay date="20110620">
+      <activity calories="273" type="BOXING_SPARRING" endDate="20110620T130800-0400" startDate="20110620T124800-0400"/>
+      <activity calories="27" type="CARRYING_INFANT" endDate="20110620T131300-0400" startDate="20110620T130800-0400"/>
+    </activityDay>
+  </days>
+</activityLog>

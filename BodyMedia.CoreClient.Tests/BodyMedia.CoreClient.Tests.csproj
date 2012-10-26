@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE4C1FE4-52AC-4582-94D2-0718141A8E93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BodyMedia.CoreClient.Tests</RootNamespace>
+    <AssemblyName>BodyMedia.CoreClient.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.1.12217, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.1\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SleepTests\BodyMediaExample1SerializaionTests.cs" />
+    <Compile Include="SleepTests\BodyMediaExample2SerializaionTests.cs" />
+    <Compile Include="SleepTests\BodyMediaExample3SerializaionTests.cs" />
+    <Compile Include="StepTests\BodyMediaExample1SerializaionTests.cs" />
+    <Compile Include="StepTests\BodyMediaExample2SerializaionTests.cs" />
+    <Compile Include="StepTests\BodyMediaExample3SerializaionTests.cs" />
+    <EmbeddedResource Include="ExampleXml\Burn_Example5.xml" />
+    <Compile Include="ActivityTests\BodyMediaExample1SerializaionTests.cs" />
+    <Compile Include="ActivityTests\BodyMediaExample2SerializaionTests.cs" />
+    <Compile Include="BaseSerializationTest.cs" />
+    <Compile Include="BurnTests\BodyMediaExample1SerializaionTests.cs" />
+    <Compile Include="BurnTests\BodyMediaExample3SerializaionTests.cs" />
+    <Compile Include="BurnTests\BodyMediaExample2SerializaionTests.cs" />
+    <Compile Include="BurnTests\BodyMediaExample4SerializaionTests.cs" />
+    <Compile Include="BurnTests\BodyMediaExample5SerializaionTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ExampleXml\Sleep_Example1.xml" />
+    <EmbeddedResource Include="ExampleXml\Sleep_Example2.xml" />
+    <EmbeddedResource Include="ExampleXml\Sleep_Example3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExampleXml\ActivityLog_Example1.xml" />
+    <EmbeddedResource Include="ExampleXml\ActivityLog_Example2.xml" />
+    <EmbeddedResource Include="ExampleXml\Burn_Example1.xml" />
+    <EmbeddedResource Include="ExampleXml\Burn_Example2.xml" />
+    <EmbeddedResource Include="ExampleXml\Burn_Example3.xml" />
+    <EmbeddedResource Include="ExampleXml\Burn_Example4.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExampleXml\Step_Example1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExampleXml\Step_Example2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExampleXml\Step_Example3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BodyMedia.CoreClient\BodyMedia.CoreClient.csproj">
+      <Project>{79E759ED-BE60-4B89-98A8-9046A3E2AD93}</Project>
+      <Name>BodyMedia.CoreClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
